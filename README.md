@@ -21,7 +21,7 @@ Prerequisites: have a GPG key for signing, imported into your keyring.
 
 ## Add the repository to apt
 - Create a file `/etc/apt/sources.list.d/myrepo.list` with the following content: `deb file:/path/to/repo/folder ./`
-- Add your key to the apt trusted store with `gpg --export <YOUR_KEY_ID> > /etc/apt/trusted.gpg.d/myrepo.gpg`
+- Add your key to the apt trusted store with `gpg --export <YOUR_KEY_ID> > /etc/apt/trusted.gpg.d/myrepo.gpg` (or copy the mykey.asc.gpg from this folder there)
 
 ## Install the package
 - Run `apt update` to refresh the package list.

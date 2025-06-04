@@ -1,4 +1,4 @@
-# Setup
+# Creating the package/repository
 
 ## Create the signed package
 - Create a directory for your package, e.g., `mypackage`.
@@ -16,6 +16,8 @@ Prerequisites: have a GPG key for signing, imported into your keyring.
 
 - Run `apt-ftparchive release . > Release` to generate the `Release` file.
 - Run `gpg --default-key <YOUR_KEY_ID> -abs -o Release.gpg Release` to sign `Release`.
+
+# Using the package/repository
 
 ## Add the repository to apt
 - Create a file `/etc/apt/sources.list.d/myrepo.list` with the following content: `deb file:/path/to/repo ./`

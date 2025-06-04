@@ -1,0 +1,14 @@
+Package: mypackage
+Version: 1.0
+Architecture: all
+Maintainer: Thomas <thomas.rubini@etu.umontpellier.fr>
+Depends: python3, python3-colorama
+Filename: ./mypackage-latest.deb
+Size: 1738
+MD5sum: 4be50bc27ca4e81c902181f09fc568ad
+SHA1: 91f6b2f27b43d656f299dd48e985c3d006e051e9
+SHA256: 7e9384cf7a5df949de6bfb45436274cace796f171f1c989b5ddba6bb0cd6af73
+Section: utils
+Priority: optional
+Description: My sample package. Use 'mypackage' command to run
+

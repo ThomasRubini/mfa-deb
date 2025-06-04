@@ -20,7 +20,7 @@ Prerequisites: have a GPG key for signing, imported into your keyring.
 # Using the package/repository
 
 ## Add the repository to apt
-- Create a file `/etc/apt/sources.list.d/myrepo.list` with the following content: `deb file:/path/to/repo ./`
+- Create a file `/etc/apt/sources.list.d/myrepo.list` with the following content: `deb file:/path/to/repo/folder ./`
 - Add your key to the apt trusted store with `gpg --export <YOUR_KEY_ID> > /etc/apt/trusted.gpg.d/myrepo.gpg`
 
 ## Install the package

@@ -1,0 +1,8 @@
+Package: mypackage
+Version: 1.0
+Section: utils
+Priority: optional
+Architecture: all
+Maintainer: Thomas <thomas.rubini@etu.umontpellier.fr>
+Description: My sample package. Use 'mypackage' command to run
+Depends: python3, python3-colorama

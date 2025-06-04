@@ -1,0 +1,4 @@
+#!/bin/sh
+if [ -L /usr/bin/mypackage ]; then # Check if symlink
+    rm -f /usr/bin/mypackage
+fi
